@@ -106,67 +106,82 @@ public class ServerImplement implements MovieManagementInterface{
 //        if (!serverClients.containsKey(customerID)) {
 //            addNewCustomerToClients(customerID);
 //        }
-        if(Constant.detectServer(movieID).equals(serverName))
+        if(allMovieShows.get(movieName).containsKey(movieID))
         {
-            int seatsAvailable = allMovieShows.get(movieName).get(movieID);
-            if(seatsAvailable-numberOfTickets>0)
+            if(Constant.detectServer(movieID).equals(serverName))
             {
-                System.out.println(clientEvents.containsKey(customerID)+" customer contains");
-                if(clientEvents.containsKey(customerID))
+
+                int seatsAvailable = allMovieShows.get(movieName).get(movieID);
+                if(seatsAvailable-numberOfTickets>0)
                 {
-                    System.out.println(clientEvents.get(customerID).containsKey(movieName)+" customer contains for specific movie");
-                    if(clientEvents.get(customerID).containsKey(movieName))
+                    System.out.println(clientEvents.containsKey(customerID)+" customer contains");
+                    if(clientEvents.containsKey(customerID))
                     {
-                        System.out.println(!clientEvents.get(customerID).get(movieName).contains(movieID)+" customer movieID");
-                        if(!clientEvents.get(customerID).get(movieName).contains(movieID))
+                        System.out.println(clientEvents.get(customerID).containsKey(movieName)+" customer contains for specific movie");
+                        if(clientEvents.get(customerID).containsKey(movieName))
                         {
-                            clientEvents.get(customerID).get(movieName).add(movieID);
-                            allMovieShows.get(movieName).put(movieID,allMovieShows.get(movieName).get(movieID)-numberOfTickets);
+                            System.out.println(!clientEvents.get(customerID).get(movieName).contains(movieID)+" customer movieID");
+                            if(!clientEvents.get(customerID).get(movieName).contains(movieID))
+                            {
+                                clientEvents.get(customerID).get(movieName).add(movieID);
+                                allMovieShows.get(movieName).put(movieID,allMovieShows.get(movieName).get(movieID)-numberOfTickets);
+                                System.out.println(allMovieShows.entrySet()+" first print");
+                                System.out.println(allMovieShows.get(movieName).entrySet()+" second print");
+                            }
+                            else
+                            {
+                                response ="Failed: Event " + movieID + " Already Booked";
+                            }
                         }
                         else
                         {
-                            response ="Failed: Event " + movieID + " Already Booked";
+                            List<String> temp = new ArrayList<>();
+                            temp.add(movieID);
+                            clientEvents.get(customerID).put(movieName,temp);
+                            System.out.println(clientEvents.get(customerID).entrySet()+" customer events");
                         }
                     }
                     else
                     {
-                        List<String> temp = new ArrayList<>();
-                        temp.add(movieID);
-                        clientEvents.get(customerID).put(movieName,temp);
+                        Map<String, List<String>> temp = new ConcurrentHashMap<>();
+                        List<String> temp2 = new ArrayList<>();
+                        temp2.add(movieID);
+                        temp.put(movieName, temp2);
+                        clientEvents.put(customerID, temp);
+                        System.out.println(clientEvents.get(customerID).entrySet()+" customer events outer loop");
                     }
                 }
                 else
                 {
-                    Map<String, List<String>> temp = new ConcurrentHashMap<>();
-                    List<String> temp2 = new ArrayList<>();
-                    temp2.add(movieID);
-                    temp.put(movieName, temp2);
-                    clientEvents.put(customerID, temp);
+                    response ="Failed: Movie Show " + movieID + " is Full";
                 }
-            }
-            else
+            }else
             {
-                response ="Failed: Movie Show " + movieID + " is Full";
-            }
-        }else
-        {
-            if (!exceedWeeklyLimit(customerID, movieID.substring(4)))
-            {
-                String serverResponse = sendUDPMessage(Constant.getServerPort(movieID.substring(0, 3)), "bookMovieShow", customerID, movieName, movieID,numberOfTickets);
-                if (serverResponse.startsWith("Success:")) {
-                    if (clientEvents.get(customerID).containsKey(movieName)) {
-                        clientEvents.get(customerID).get(movieName).add(movieID);
-                    } else {
-                        List<String> temp = new ArrayList<>();
-                        temp.add(movieID);
-                        clientEvents.get(customerID).put(movieName, temp);
+                System.out.println(exceedWeeklyLimit(customerID, movieID.substring(4))+" week limit");
+                if (!exceedWeeklyLimit(customerID, movieID.substring(4)))
+                {
+                    String serverResponse = sendUDPMessage(Constant.getServerPort(movieID.substring(0, 3)), "bookMovieShow", customerID, movieName, movieID,numberOfTickets);
+                    System.out.println(serverResponse+" response");
+                    if (serverResponse.startsWith("Success:")) {
+                        if (clientEvents.get(customerID).containsKey(movieName)) {
+                            clientEvents.get(customerID).get(movieName).add(movieID);
+                        } else {
+                            List<String> temp = new ArrayList<>();
+                            temp.add(movieID);
+                            clientEvents.get(customerID).put(movieName, temp);
+                        }
+                        System.out.println(clientEvents.get(customerID).entrySet());
                     }
-                }
-                else{
-                    response = "Failed: You Cannot Book Event in Other Servers For This Week(Max Weekly Limit = 3)";
+                    else{
+                        response = "Failed: You Cannot Book Event in Other Servers For This Week(Max Weekly Limit = 3)";
+                    }
                 }
             }
         }
+        else {
+            response = "Movie Show is not opened yet by Administration";
+        }
+
         return response;
     }
 

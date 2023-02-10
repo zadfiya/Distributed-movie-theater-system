@@ -101,7 +101,7 @@ public class Client {
     }
 
     private static void admin(String adminID, int serverPort) throws Exception{
-        System.out.println("bcd");
+
         if (serverPort == 1) {
             return;
         }
