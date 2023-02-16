@@ -9,7 +9,7 @@ public interface MovieManagementInterface extends Remote {
 
     String removeMovieSlots(String movieID, String movieName) throws RemoteException;
 
-    String listEventAvailability(String movieName) throws RemoteException;
+    String listMovieShowAvailability(String movieName) throws RemoteException;
 
     /**
      * Both manager and Customer
