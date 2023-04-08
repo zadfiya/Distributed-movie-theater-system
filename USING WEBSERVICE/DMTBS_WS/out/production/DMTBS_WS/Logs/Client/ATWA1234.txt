@@ -1,0 +1,35 @@
+DATE: 2023-03-08 10:17:26 PM login attempt
+DATE: 2023-03-08 10:17:26 PM  Admin Login successful
+DATE: 2023-03-08 10:17:35 PM  attempting to addMovie
+DATE: 2023-03-08 10:17:35 PM Client Action:  addMovie | RequestParameters:  movieId: ATWA100323 movieName: Avatar movieCapacity: 200  | Server Response: SUCCESS: Movie ATWA100323 added successfully.
+DATE: 2023-03-08 10:17:38 PM attempting to Logout
+DATE: 2023-03-08 10:20:18 PM login attempt
+DATE: 2023-03-08 10:20:18 PM  Admin Login successful
+DATE: 2023-03-08 10:20:32 PM  attempting to addMovie
+DATE: 2023-03-08 10:20:32 PM Client Action:  addMovie | RequestParameters:  movieId: ATWA110323 movieName: Avengers movieCapacity: 200  | Server Response: SUCCESS: Movie ATWA110323 added successfully.
+DATE: 2023-03-08 10:20:38 PM  attempting to listMovieAvailability
+DATE: 2023-03-08 10:20:38 PM Client Action:  listMovieAvailability | RequestParameters:  movieName: Avengers  | Server Response: ATWATER Server Avengers:
+Movie ID: ATWA110323
+Movie Time: Afternoon
+Movie Date: 11-03-2023
+Movie Capacity: 200 || 
+=====================================
+
+
+VERDUN Server Avengers:
+No Events of Type Avengers
+=====================================
+
+
+OUTREMONT Server Avengers:
+No Events of Type Avengers
+=====================================
+
+DATE: 2023-03-08 10:26:24 PM login attempt
+DATE: 2023-03-08 10:26:24 PM  Admin Login successful
+DATE: 2023-03-08 10:26:34 PM  attempting to addMovie
+DATE: 2023-03-08 10:26:34 PM Client Action:  addMovie | RequestParameters:  movieId: ATWA100323 movieName: Avatar movieCapacity: 200  | Server Response: SUCCESS: Movie ATWA100323 added successfully.
+DATE: 2023-03-08 10:28:49 PM  attempting to addMovie
+DATE: 2023-03-08 10:28:49 PM Client Action:  addMovie | RequestParameters:  movieId: ATWA110323 movieName: Avengers movieCapacity: 200  | Server Response: SUCCESS: Movie ATWA110323 added successfully.
+DATE: 2023-03-08 10:31:26 PM  attempting to addMovie
+DATE: 2023-03-08 10:31:26 PM Client Action:  addMovie | RequestParameters:  movieId: ATWA100323 movieName: Avatar movieCapacity: 200  | Server Response: SUCCESS: Movie ATWA100323 added successfully.

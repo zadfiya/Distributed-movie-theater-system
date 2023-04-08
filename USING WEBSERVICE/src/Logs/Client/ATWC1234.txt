@@ -1,0 +1,132 @@
+DATE: 2023-03-22 05:29:40 PM Login attempt
+DATE: 2023-03-22 05:29:40 PM  Customer Login successful
+DATE: 2023-03-22 05:29:50 PM  attempting to book Movie
+DATE: 2023-03-22 05:29:50 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWA220323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: Movie ATWA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:29:54 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:29:54 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWA220323	2
+
+=====================================
+
+DATE: 2023-03-22 05:30:30 PM  attempting to Logout
+DATE: 2023-03-22 05:32:04 PM Login attempt
+DATE: 2023-03-22 05:32:04 PM  Customer Login successful
+DATE: 2023-03-22 05:32:09 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:32:09 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWE220323	2
+
+=====================================
+
+DATE: 2023-03-22 05:32:14 PM  attempting to Logout
+DATE: 2023-03-22 05:36:24 PM Login attempt
+DATE: 2023-03-22 05:36:24 PM  Customer Login successful
+DATE: 2023-03-22 05:45:54 PM  attempting to Logout
+DATE: 2023-03-22 05:47:55 PM Login attempt
+DATE: 2023-03-22 05:47:55 PM  Customer Login successful
+DATE: 2023-03-22 05:48:14 PM  attempting to book Movie
+DATE: 2023-03-22 05:48:14 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA220323 movieName: Avatar Number of tickets: 2  | Server Response: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 05:48:50 PM  attempting to book Movie
+DATE: 2023-03-22 05:48:50 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA230323 movieName: Avatar Number of tickets: 5  | Server Response: SUCCESS: Movie VERA230323 Booked Successfully For 5 Tickets
+DATE: 2023-03-22 05:49:24 PM  attempting to book Movie
+DATE: 2023-03-22 05:49:24 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA240323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: Movie VERA240323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:49:26 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:49:26 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWE220323	2
+VERA230323	5
+VERA240323	2
+
+=====================================
+
+DATE: 2023-03-22 05:51:45 PM  attempting to book Movie
+DATE: 2023-03-22 05:51:45 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA250323 movieName: Avatar Number of tickets: 2  | Server Response: FAILURE: Movie VERA250323 Does not have 2 Tickets available!
+DATE: 2023-03-22 05:52:13 PM  attempting to book Movie
+DATE: 2023-03-22 05:52:13 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA250323 movieName: Avatar Number of tickets: 1  | Server Response: FAILURE: Movie VERA250323 Does not have 1 Tickets available!
+DATE: 2023-03-22 05:52:15 PM  attempting to Logout
+DATE: 2023-03-22 05:52:50 PM Login attempt
+DATE: 2023-03-22 05:52:50 PM  Customer Login successful
+DATE: 2023-03-22 05:53:07 PM  attempting to book Movie
+DATE: 2023-03-22 05:53:07 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA250323 movieName: Avatar Number of tickets: 5  | Server Response: FAILURE: Movie VERA250323 Does not have 5 Tickets available!
+DATE: 2023-03-22 05:53:11 PM  attempting to Logout
+DATE: 2023-03-22 05:54:57 PM Login attempt
+DATE: 2023-03-22 05:54:57 PM  Customer Login successful
+DATE: 2023-03-22 05:55:06 PM  attempting to book Movie
+DATE: 2023-03-22 05:55:06 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA250323 movieName: Avatar Number of tickets: 5  | Server Response: SUCCESS: Movie VERA250323 Booked Successfully For 5 Tickets
+DATE: 2023-03-22 05:55:08 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:55:08 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWE220323	2
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 05:55:23 PM  attempting to cancelEvent
+DATE: 2023-03-22 05:55:23 PM Client Action:  cancelMovie | RequestParameters:  movieID: ATWE220323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: MOVIE ATWE220323 Canceled for ATWC1234
+DATE: 2023-03-22 05:55:25 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:55:25 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 05:55:44 PM  attempting to book Movie
+DATE: 2023-03-22 05:55:44 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA220323 movieName: Avatar Number of tickets: 2  | Server Response: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 05:55:55 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:55:55 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 06:05:02 PM  attempting to Logout
+DATE: 2023-03-22 06:05:43 PM Login attempt
+DATE: 2023-03-22 06:05:43 PM  Customer Login successful
+DATE: 2023-03-22 06:06:58 PM  attempting to book Movie
+DATE: 2023-03-22 06:06:58 PM Client Action:  bookMovie | RequestParameters:  movieID: OUTE250323 movieName: Avatar Number of tickets: 2  | Server Response: FAILURE: Unable to Book Movie For This Week In Another Servers(Max Weekly Limit = 3)
+DATE: 2023-03-22 06:07:08 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 06:07:08 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 07:13:02 PM  attempting to Logout
+DATE: 2023-03-22 07:18:08 PM Login attempt
+DATE: 2023-03-22 07:18:08 PM  Customer Login successful
+DATE: 2023-03-22 07:18:12 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 07:18:13 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 07:27:56 PM Login attempt
+DATE: 2023-03-22 07:27:56 PM  Customer Login successful
+DATE: 2023-03-22 07:28:06 PM  attempting to book Movie
+DATE: 2023-03-22 07:28:06 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWA230323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: Movie ATWA230323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:28:21 PM  attempting to book Movie
+DATE: 2023-03-22 07:28:21 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWA220323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: Movie ATWA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:28:23 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 07:28:23 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWA230323	2
+ATWA220323	2
+
+=====================================
+
+DATE: 2023-03-22 07:29:17 PM  attempting to book Movie
+DATE: 2023-03-22 07:29:17 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA220323 movieName: Avatar Number of tickets: 2  | Server Response: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 07:29:28 PM  attempting to cancelEvent
+DATE: 2023-03-22 07:29:28 PM Client Action:  cancelMovie | RequestParameters:  movieID: ATWA220323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: MOVIE ATWA220323 Canceled for ATWC1234
+DATE: 2023-03-22 07:29:30 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 07:29:30 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWA230323	2
+
+=====================================
+
+DATE: 2023-03-22 07:29:43 PM  attempting to book Movie
+DATE: 2023-03-22 07:29:43 PM Client Action:  bookMovie | RequestParameters:  movieID: VERA220323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: Movie VERA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:32:16 PM  attempting to Logout

@@ -1,0 +1,5 @@
+DATE: 2023-03-22 06:05:08 PM Login attempt
+DATE: 2023-03-22 06:05:08 PM  Admin Login successful
+DATE: 2023-03-22 06:05:22 PM  attempting to addMovie
+DATE: 2023-03-22 06:05:22 PM Client Action:  addMovie | RequestParameters:  movieId: OUTE250323 movieName: Avatar movieCapacity: 15  | Server Response: SUCCESS: Movie OUTE250323 added successfully.
+DATE: 2023-03-22 06:05:35 PM attempting to Logout

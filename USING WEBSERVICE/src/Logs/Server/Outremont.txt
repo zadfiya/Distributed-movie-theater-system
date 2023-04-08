@@ -1,0 +1,43 @@
+DATE: 2023-03-21 07:32:33 PM Server is Up and Running
+DATE: 2023-03-21 07:32:34 PM  Server Shutting down
+DATE: 2023-03-21 07:32:34 PM  UDP Server Started at port 9090
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  UDP request received listMovieAvailability  | RequestParameters:  movieName: Avatar movieId: null number of tickets: -2147483648  | ServerResponse:  ...
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  UDP reply sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+;
+DATE: 2023-03-22 05:17:27 PM Server is Up and Running
+DATE: 2023-03-22 05:17:28 PM  Server Shutting down
+DATE: 2023-03-22 05:17:28 PM  UDP Server Started at port 9090
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  UDP request received listMovieAvailability  | RequestParameters:  movieName: Avatar movieId: null number of tickets: -2147483648  | ServerResponse:  ...
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  UDP reply sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+;
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  UDP request received listMovieAvailability  | RequestParameters:  movieName: Avatar movieId: null number of tickets: -2147483648  | ServerResponse:  ...
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  UDP reply sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+;
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  UDP request received listMovieAvailability  | RequestParameters:  movieName: Avatar movieId: null number of tickets: -2147483648  | ServerResponse:  ...
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  UDP reply sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+;
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  UDP request received listMovieAvailability  | RequestParameters:  movieName: Avatar movieId: null number of tickets: -2147483648  | ServerResponse:  ...
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  UDP reply sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+;
+DATE: 2023-03-22 07:25:33 PM Server is Up and Running
+DATE: 2023-03-22 07:25:33 PM  UDP Server Started at port 9090

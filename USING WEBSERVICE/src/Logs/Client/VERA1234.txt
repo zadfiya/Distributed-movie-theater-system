@@ -1,0 +1,21 @@
+DATE: 2023-03-22 05:46:01 PM Login attempt
+DATE: 2023-03-22 05:46:01 PM  Admin Login successful
+DATE: 2023-03-22 05:46:14 PM  attempting to addMovie
+DATE: 2023-03-22 05:46:14 PM Client Action:  addMovie | RequestParameters:  movieId: VERA220323 movieName: Avatar movieCapacity: 15  | Server Response: SUCCESS: Movie VERA220323 added successfully.
+DATE: 2023-03-22 05:46:25 PM  attempting to addMovie
+DATE: 2023-03-22 05:46:25 PM Client Action:  addMovie | RequestParameters:  movieId: VERA230323 movieName: Avatar movieCapacity: 15  | Server Response: SUCCESS: Movie VERA230323 added successfully.
+DATE: 2023-03-22 05:46:34 PM  attempting to addMovie
+DATE: 2023-03-22 05:46:34 PM Client Action:  addMovie | RequestParameters:  movieId: VERA240323 movieName: Avatar movieCapacity: 15  | Server Response: SUCCESS: Movie VERA240323 added successfully.
+DATE: 2023-03-22 05:47:09 PM  attempting to addMovie
+DATE: 2023-03-22 05:47:09 PM Client Action:  addMovie | RequestParameters:  movieId: ATWA250323 movieName: Avatar movieCapacity: 15  | Server Response: FAILURE: Cannot add Movie to other Servers
+DATE: 2023-03-22 05:47:13 PM attempting to Logout
+DATE: 2023-03-22 05:53:42 PM Login attempt
+DATE: 2023-03-22 05:53:42 PM  Admin Login successful
+DATE: 2023-03-22 05:54:50 PM  attempting to addMovie
+DATE: 2023-03-22 05:54:50 PM Client Action:  addMovie | RequestParameters:  movieId: VERA250323 movieName: Avatar movieCapacity: 5  | Server Response: SUCCESS: Movie VERA250323 added successfully.
+DATE: 2023-03-22 05:54:52 PM attempting to Logout
+DATE: 2023-03-22 07:27:33 PM Login attempt
+DATE: 2023-03-22 07:27:33 PM  Admin Login successful
+DATE: 2023-03-22 07:27:49 PM  attempting to addMovie
+DATE: 2023-03-22 07:27:49 PM Client Action:  addMovie | RequestParameters:  movieId: VERA220323 movieName: Avatar movieCapacity: 15  | Server Response: SUCCESS: Movie VERA220323 added successfully.
+DATE: 2023-03-22 07:27:50 PM attempting to Logout

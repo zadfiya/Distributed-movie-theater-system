@@ -1,0 +1,39 @@
+DATE: 2023-03-22 05:30:36 PM Login attempt
+DATE: 2023-03-22 05:30:36 PM  Customer Login successful
+DATE: 2023-03-22 05:30:47 PM  attempting to book Movie
+DATE: 2023-03-22 05:30:47 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWA220323 movieName: Avatar Number of tickets: 3  | Server Response: SUCCESS: Movie ATWA220323 Booked Successfully For 3 Tickets
+DATE: 2023-03-22 05:30:51 PM  attempting to Logout
+DATE: 2023-03-22 05:32:18 PM Login attempt
+DATE: 2023-03-22 05:32:18 PM  Customer Login successful
+DATE: 2023-03-22 05:32:22 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 05:32:22 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWE220323	3
+
+=====================================
+
+DATE: 2023-03-22 05:36:20 PM  attempting to Logout
+DATE: 2023-03-22 07:13:11 PM Login attempt
+DATE: 2023-03-22 07:13:11 PM  Customer Login successful
+DATE: 2023-03-22 07:14:10 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 07:14:10 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWE220323	1
+VERA230323	2
+
+=====================================
+
+DATE: 2023-03-22 07:32:21 PM Login attempt
+DATE: 2023-03-22 07:32:21 PM  Customer Login successful
+DATE: 2023-03-22 07:36:29 PM  attempting to book Movie
+DATE: 2023-03-22 07:36:29 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWA220323 movieName: Avatar Number of tickets: 2  | Server Response: SUCCESS: Movie ATWA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:40:53 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 07:40:53 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWA220323	1
+
+=====================================
+
+DATE: 2023-03-22 07:42:56 PM  attempting to getMovieSchedule
+DATE: 2023-03-22 07:42:56 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+VERA220323	1
+
+=====================================
+

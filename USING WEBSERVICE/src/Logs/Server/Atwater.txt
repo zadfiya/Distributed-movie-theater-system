@@ -1,0 +1,331 @@
+DATE: 2023-03-21 07:32:33 PM Server is Up and Running
+DATE: 2023-03-21 07:32:34 PM  Server Shutting down
+DATE: 2023-03-21 07:32:34 PM  UDP Server Started at port 7878
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-21 07:32:56 PM ClientID: ADMIN | RequestType:  Web Service listMovieShowsAvailability  | RequestParameters:  movieName: Avatar  | ServerResponse: ATWATER Server Avatar:
+No Movie Slots for Movie: Avatar
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:17:27 PM Server is Up and Running
+DATE: 2023-03-22 05:17:28 PM  Server Shutting down
+DATE: 2023-03-22 05:17:28 PM  UDP Server Started at port 7878
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:22:54 PM ClientID: ADMIN | RequestType:  Web Service listMovieShowsAvailability  | RequestParameters:  movieName: Avatar  | ServerResponse: ATWATER Server Avatar:
+Movie ID: ATWA220323
+Movie Time: Afternoon
+Movie Date: 22-03-2023
+Movie Capacity: 15 || 
+=====================================
+
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:29:50 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:29:54 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWA220323	2
+
+=====================================
+
+DATE: 2023-03-22 05:30:47 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWA220323 Booked Successfully For 3 Tickets
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:30:59 PM ClientID: ADMIN | RequestType:  Web Service listMovieShowsAvailability  | RequestParameters:  movieName: Avatar  | ServerResponse: ATWATER Server Avatar:
+Movie ID: ATWE220323
+Movie Time: Evening
+Movie Date: 22-03-2023
+Movie Capacity: 20 || Movie ID: ATWA220323
+Movie Time: Afternoon
+Movie Date: 22-03-2023
+Movie Capacity: 13 || 
+=====================================
+
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:31:45 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWE220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWE220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:31:45 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWE220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWE220323 Booked Successfully For 3 Tickets
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:31:51 PM ClientID: ADMIN | RequestType:  Web Service listMovieShowsAvailability  | RequestParameters:  movieName: Avatar  | ServerResponse: ATWATER Server Avatar:
+Movie ID: ATWE220323
+Movie Time: Evening
+Movie Date: 22-03-2023
+Movie Capacity: 15 || 
+=====================================
+
+
+VERDUN Server Avatar:
+No Events of Type Avatar
+=====================================
+
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:32:09 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWE220323	2
+
+=====================================
+
+DATE: 2023-03-22 05:32:22 PM ClientID: ATWC2345 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWE220323	3
+
+=====================================
+
+DATE: 2023-03-22 05:40:02 PM ClientID: ATWC1234 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWA220323 oldMovieName: Avatar newMovieId: VERA220323 newMovieName Avatar numberOfTickets: 5 | ServerResponse: FAILURE: You are not registered in Avatar with movieId ATWA220323
+DATE: 2023-03-22 05:40:38 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 05:40:38 PM ClientID: ATWC1234 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWE220323 oldMovieName: Avatar newMovieId: VERA220323 newMovieName Avatar numberOfTickets: 5 | ServerResponse: FAILURE: Cannot Exchange Movie Tickets: Due to reasons: FAILURE: You have already booked a Movie  at different server for same time/nFAILURE: You don't have 5 Tickets booked.
+DATE: 2023-03-22 05:41:44 PM ClientID: ATWC1234 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: ATWE220323 movieName: Avatar  | ServerResponse: SUCCESS: MOVIE ATWE220323 Canceled for ATWC1234
+DATE: 2023-03-22 05:41:44 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERM230323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:41:44 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERM230323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERM230323 Does not have 2 Tickets available!
+DATE: 2023-03-22 05:41:44 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERM230323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERM230323 Does not have 2 Tickets available!
+DATE: 2023-03-22 05:41:44 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWE220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWE220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:41:44 PM ClientID: ATWC1234 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWE220323 oldMovieName: Avatar newMovieId: VERM230323 newMovieName Avatar numberOfTickets: 2 | ServerResponse: FAILURE: New Movie VERM230323 could not be booked due to reasonFAILURE: Movie VERM230323 Does not have 2 Tickets available! So Old Movie Booking is Re-booked: SUCCESS: Movie ATWE220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:48:14 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 05:48:50 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA230323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:48:50 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA230323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA230323 Booked Successfully For 5 Tickets
+DATE: 2023-03-22 05:48:50 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA230323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA230323 Booked Successfully For 5 Tickets
+DATE: 2023-03-22 05:49:24 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA240323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:49:24 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA240323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA240323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:49:24 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA240323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA240323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 05:49:26 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWE220323	2
+VERA230323	5
+VERA240323	2
+
+=====================================
+
+DATE: 2023-03-22 05:51:45 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:51:45 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERA250323 Does not have 2 Tickets available!
+DATE: 2023-03-22 05:51:45 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERA250323 Does not have 2 Tickets available!
+DATE: 2023-03-22 05:52:13 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:52:13 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERA250323 Does not have 1 Tickets available!
+DATE: 2023-03-22 05:52:13 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERA250323 Does not have 1 Tickets available!
+DATE: 2023-03-22 05:53:07 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:53:07 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERA250323 Does not have 5 Tickets available!
+DATE: 2023-03-22 05:53:07 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: FAILURE: Movie VERA250323 Does not have 5 Tickets available!
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+VERDUN Server Avatar:
+Movie ID: VERA230323
+Movie Time: Afternoon
+Movie Date: 23-03-2023
+Movie Capacity: 10 || Movie ID: VERA240323
+Movie Time: Afternoon
+Movie Date: 24-03-2023
+Movie Capacity: 13 || Movie ID: VERA220323
+Movie Time: Afternoon
+Movie Date: 22-03-2023
+Movie Capacity: 15 || 
+=====================================
+
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  UDP request sent listMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  UDP reply receivedlistMovieAvailability  | RequestParameters:  movieId: null movieName: Avatar  | ServerResponse: 
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:53:25 PM ClientID: ADMIN | RequestType:  Web Service listMovieShowsAvailability  | RequestParameters:  movieName: Avatar  | ServerResponse: ATWATER Server Avatar:
+Movie ID: ATWE220323
+Movie Time: Evening
+Movie Date: 22-03-2023
+Movie Capacity: 15 || 
+=====================================
+
+
+VERDUN Server Avatar:
+Movie ID: VERA230323
+Movie Time: Afternoon
+Movie Date: 23-03-2023
+Movie Capacity: 10 || Movie ID: VERA240323
+Movie Time: Afternoon
+Movie Date: 24-03-2023
+Movie Capacity: 13 || Movie ID: VERA220323
+Movie Time: Afternoon
+Movie Date: 22-03-2023
+Movie Capacity: 15 || 
+=====================================
+
+
+OUTREMONT Server Avatar:
+No Events of Type Avatar
+=====================================
+
+DATE: 2023-03-22 05:55:06 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 05:55:06 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA250323 Booked Successfully For 5 Tickets
+DATE: 2023-03-22 05:55:06 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA250323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA250323 Booked Successfully For 5 Tickets
+DATE: 2023-03-22 05:55:08 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWE220323	2
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 05:55:23 PM ClientID: ATWC1234 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: ATWE220323 movieName: Avatar  | ServerResponse: SUCCESS: MOVIE ATWE220323 Canceled for ATWC1234
+DATE: 2023-03-22 05:55:25 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 05:55:44 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 05:55:55 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 06:06:58 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: OUTE250323 movieName: Avatar  | ServerResponse: FAILURE: Unable to Book Movie For This Week In Another Servers(Max Weekly Limit = 3)
+DATE: 2023-03-22 06:07:08 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 07:14:06 PM ClientID: ATWC2345 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA230323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 07:14:06 PM ClientID: ATWC2345 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA230323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA230323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:14:06 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA230323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA230323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:14:06 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWE220323 oldMovieName: Avatar newMovieId: VERA230323 newMovieName Avatar numberOfTickets: 2 | ServerResponse: SUCCESS: 2 Movie Tickets ATWE220323 Exchanged with VERA230323
+DATE: 2023-03-22 07:14:10 PM ClientID: ATWC2345 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWE220323	1
+VERA230323	2
+
+=====================================
+
+DATE: 2023-03-22 07:14:51 PM ClientID: ATWC2345 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: ATWE220323 movieName: Avatar  | ServerResponse: SUCCESS: MOVIE ATWE220323 Canceled for ATWC2345
+DATE: 2023-03-22 07:18:13 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+VERA230323	5
+VERA240323	2
+VERA250323	5
+
+=====================================
+
+DATE: 2023-03-22 07:25:33 PM Server is Up and Running
+DATE: 2023-03-22 07:25:33 PM  UDP Server Started at port 7878
+DATE: 2023-03-22 07:28:06 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWA230323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWA230323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:28:21 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:28:23 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWA230323	2
+ATWA220323	2
+
+=====================================
+
+DATE: 2023-03-22 07:29:17 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 07:29:28 PM ClientID: ATWC1234 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: MOVIE ATWA220323 Canceled for ATWC1234
+DATE: 2023-03-22 07:29:30 PM ClientID: ATWC1234 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWA230323	2
+
+=====================================
+
+DATE: 2023-03-22 07:29:43 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 07:29:43 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:29:43 PM ClientID: ATWC1234 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:36:29 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:37:01 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: VERA220323 oldMovieName: Avatar newMovieId: ATWA240323 newMovieName Avatar numberOfTickets: 5 | ServerResponse: FAILURE: You are not registered in Avatar with movieId VERA220323
+DATE: 2023-03-22 07:37:37 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: FAILURE: You have already booked a Movie  at different server for same time
+DATE: 2023-03-22 07:37:37 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWA220323 oldMovieName: Avatar newMovieId: VERA220323 newMovieName Avatar numberOfTickets: 1 | ServerResponse: FAILURE: New Movie VERA220323 could not be booked due to reasonFAILURE: You have already booked a Movie  at different server for same time So Old Movie Booking is Re-booked: SUCCESS: Movie ATWA220323 Booked 1 more tickets, Total Tickets = 2
+DATE: 2023-03-22 07:38:07 PM ClientID: ATWC2345 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: MOVIE ATWA220323 Canceled for ATWC2345
+DATE: 2023-03-22 07:38:07 PM ClientID: ATWC2345 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 07:38:07 PM ClientID: ATWC2345 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:38:07 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Booked Successfully For 2 Tickets
+DATE: 2023-03-22 07:38:07 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWA220323 oldMovieName: Avatar newMovieId: VERA220323 newMovieName Avatar numberOfTickets: 2 | ServerResponse: SUCCESS: 2 Movie Tickets ATWA220323 Exchanged with VERA220323
+DATE: 2023-03-22 07:40:49 PM ClientID: ATWC2345 | RequestType:  UDP request sent cancelMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 07:40:49 PM ClientID: ATWC2345 | RequestType:  UDP reply receivedcancelMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Cancelled for ATWC2345
+DATE: 2023-03-22 07:40:49 PM ClientID: ATWC2345 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Cancelled for ATWC2345
+DATE: 2023-03-22 07:40:49 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie ATWA220323 Booked Successfully For 1 Tickets
+DATE: 2023-03-22 07:40:49 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: VERA220323 oldMovieName: Avatar newMovieId: ATWA220323 newMovieName Avatar numberOfTickets: 1 | ServerResponse: SUCCESS: 1 Movie Tickets VERA220323 Exchanged with ATWA220323
+DATE: 2023-03-22 07:40:53 PM ClientID: ATWC2345 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWA220323	1
+
+=====================================
+
+DATE: 2023-03-22 07:42:09 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: VERA220323 oldMovieName: Avatar newMovieId: ATWA230323 newMovieName Avatar numberOfTickets: 1 | ServerResponse: FAILURE: You are not registered in Avatar with movieId VERA220323
+DATE: 2023-03-22 07:42:53 PM ClientID: ATWC2345 | RequestType:  Web Service cancelMovieTickets  | RequestParameters:  movieID: ATWA220323 movieName: Avatar  | ServerResponse: SUCCESS: MOVIE ATWA220323 Canceled for ATWC2345
+DATE: 2023-03-22 07:42:53 PM ClientID: ATWC2345 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-22 07:42:53 PM ClientID: ATWC2345 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Booked Successfully For 1 Tickets
+DATE: 2023-03-22 07:42:53 PM ClientID: ATWC2345 | RequestType:  Web Service bookMovieTicket  | RequestParameters:  movieId: VERA220323 movieName: Avatar  | ServerResponse: SUCCESS: Movie VERA220323 Booked Successfully For 1 Tickets
+DATE: 2023-03-22 07:42:53 PM ClientID: ATWC2345 | RequestType:  Web Service Exchange Tickets | RequestParameters: oldMovieId: ATWA220323 oldMovieName: Avatar newMovieId: VERA220323 newMovieName Avatar numberOfTickets: 1 | ServerResponse: SUCCESS: 1 Movie Tickets ATWA220323 Exchanged with VERA220323
+DATE: 2023-03-22 07:42:56 PM ClientID: ATWC2345 | RequestType:  Web Service getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+VERA220323	1
+
+=====================================
+
